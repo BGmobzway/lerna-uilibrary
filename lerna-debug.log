@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '7.4.2',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   name: 'ui-library'
+0 silly argv }
+1 notice cli v7.4.2
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath C:\Users\gupta\bhavesh\my-ui-library-monorepo
+4 error TypeError: Cannot read properties of undefined (reading 'name')
+4 error     at CreateCommand.execute (C:\Users\gupta\bhavesh\my-ui-library-monorepo\node_modules\@lerna\create\dist\command.js:4071:31)

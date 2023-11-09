@@ -1,0 +1,32 @@
+{
+  "name": "ui-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "BGmobzway <bhaveshgupta1.mobzway@gmail.com>",
+  "homepage": "https://github.com/abhay-singhal/Jewellery-ecomm#readme",
+  "license": "ISC",
+  "main": "lib/ui-library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhay-singhal/Jewellery-ecomm.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/ui-library.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/abhay-singhal/Jewellery-ecomm/issues"
+  },
+  "dependencies": {
+    "snabbdom": "^3.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
